@@ -1,24 +1,51 @@
 body{
     margin: 0%;
+    padding: 0%;
 }
-.background{
-    /background-image: url(images/donation13.jpg);
-    /background-repeat: no-repeat;
-    /width: 100%;
-   background-color: aqua;
-}
-.first_section{
+.background {
+    background-image: url('images/donation4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
-h1{
+/*.background{
+    text-align: center;
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}*/
+/*.first_section{
+    text-align: center;
+}*/
+.section_one{
+    text-align: center;
     font-size: 50px;
-    padding-top: 200px;
+    padding-top: 150px;
+    color: white;
 }
-img{
-    width: 80%;
+.section_two{
+    text-align: center;
+    color: white;
 }
-a{
-    align-items: center;
+/*a{
+    text-align: center;
     text-decoration: none;
     background-color: rgb(255, 0, 0);
+}*/
+.don{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
 }
