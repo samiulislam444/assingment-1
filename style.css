@@ -10,42 +10,62 @@ body{
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    
 }
-/*.background{
+.page-one{
     text-align: center;
-    background-image: url(images/donation4.jpg);
-    background-repeat: no-repeat;
-    margin: 0%;
-    padding: 0%;
-    height: 100%;
-    width: 100%;
-}*/
-/*.first_section{
-    text-align: center;
-}*/
-.section_one{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+h1{
     text-align: center;
     font-size: 50px;
-    padding-top: 150px;
-    color: white;
+    padding-top: 130px;
 }
 .section_two{
+    padding-bottom: 50px;
     text-align: center;
-    color: white;
 }
-/*a{
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(255, 0, 0);
-}*/
 .don{
     text-decoration: none;
     background-color: #FF5959;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-size: 25px;
     font-weight: 700;
     position: relative;
+    text-align: center;
+    display: inline;
+    text-shadow: none;
+}
+.page-two{
+    text-align: center;
+    color: black;
+}
+.tk{
+    font-size: 45px;
+    text-align: center;
+}
+.taka{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+.special{
+    background-color: #ff59594d;
+    border: 5px solid #FF5959;
+}
+input{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    border: none;
+}
+hr{
+    width: 500px;
+}
+#second-page-link{
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
