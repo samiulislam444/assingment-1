@@ -68,6 +68,8 @@ h1{
     font-size: 20px;
     border: none;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 10px;
 }
 hr{
     width: 700px;
@@ -97,4 +99,51 @@ hr{
 }
 h3{
     font-size: 25px;
+}
+.page-four{
+    display: flex;
+    padding: 150px;
+}
+.page-four-part-one{
+    text-align: left;
+    padding-right: 20px;
+    width: 80%;
+    padding-left: 30px;
+}
+.page-four-part-two{
+    width: 80%;
+}
+.last-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+.last-page-part-one{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 0, 0, 0.096);
+}
+.last-page-part-two{
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 0, 0, 0.096);
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #FF5959;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: rgb(1, 1, 58);
+    padding: 20px;
+    color: #FF5959;
 }
